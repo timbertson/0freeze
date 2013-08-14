@@ -16,10 +16,10 @@ specified in the original feed.
 
 Local feeds are not included as dependencies (since they include system-specific path information),
 but the version of the local implementation is still used. It's up to you to ensure that the
-same version is available wherever you run the locked feed.
+same version is available wherever you run the frozen feed.
 
 # Known Issues:
 
-If a published feed is modified after the locked feed is generated, it's possible to introduce
+If a published feed is modified after the frozen feed is generated, it's possible to introduce
 new (unrestricted) dependencies. This is considered bad practice, but there is currently no
 protection against it.
