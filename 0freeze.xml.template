@@ -10,7 +10,7 @@
 	<feed-for interface="http://gfxmonk.net/dist/0install/0freeze.xml"/>
 
 	<group>
-		<command name="run" path="0freeze">
+		<command name="run" path="zeroinstall_freeze.py">
 			<runner interface="http://repo.roscidus.com/python/python"/>
 		</command>
 		<requires interface="http://repo.roscidus.com/python/python"/>

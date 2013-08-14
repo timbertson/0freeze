@@ -1,0 +1,4 @@
+#!/bin/bash
+set -eux
+redo-ifchange 0freeze-local.xml
+0install run 0freeze-local.xml "$@"
