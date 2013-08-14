@@ -10,11 +10,12 @@
 	<feed-for interface="http://gfxmonk.net/dist/0install/0freeze.xml"/>
 
 	<group>
+		<requires interface="http://repo.roscidus.com/python/python"/>
+		<requires interface="http://gfxmonk.net/dist/0install/version.xml"/>
 		<command name="run" path="zeroinstall_freeze.py">
 			<runner interface="http://repo.roscidus.com/python/python"/>
 		</command>
-		<requires interface="http://repo.roscidus.com/python/python"/>
-		<requires interface="http://gfxmonk.net/dist/0install/version.xml"/>
+		<environment insert="" name="PYTHONPATH" mode="prepend"/>
 		<implementation version="{version}" released="{date}">
 			<manifest-digest/>
 			<archive href="{archive}"/>
