@@ -1,3 +1,5 @@
+<img src="http://gfxmonk.net/dist/status/project/0freeze.png">
+
 # 0freeze
 
 Creates a version-frozen copy of a zeroinstall feed (including dependencies).
